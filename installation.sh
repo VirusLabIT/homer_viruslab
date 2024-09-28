@@ -11,3 +11,4 @@ else
     echo "creating assets"
     mv assets /assets
 
+echo "installed"
