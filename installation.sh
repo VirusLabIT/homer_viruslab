@@ -1,11 +1,7 @@
-  GNU nano 7.2                                         installation.sh
-if [ ! -d /homer_viruslab ]
-then
-    git clone https://github.com/VirusLabIT/homer_viruslab.git
-fi
+git clone https://github.com/VirusLabIT/homer_viruslab.git
 cd homer_viruslab
 docker-compose up -d
-if [ ! -d /assets ]
+if [-d /assets ]
 then
     echo "backuping /assets"
     mv /assets /assets.Backup
