@@ -2,13 +2,19 @@
 version: "2"
 services:
   homer:
+    #image: b4bz/homer
+    #To build from source, comment previous line and uncomment below
     build: .
     container_name: homer
+    #change /assets to your folder path if you want a custom assets folder
     volumes:
-    #to use a custom assets folder change /assets/ to the path to your custom folder
       - /assets/:/www/assets
     ports:
       - 80:8080
+    #environment:
+    #  - UID=1000
+    #  - GID=1000
+    restart: unless-stopped
     user: 1000:1000 # default
     environment:
       - INIT_ASSETS=1 # default
