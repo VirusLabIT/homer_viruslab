@@ -10,4 +10,4 @@ else
     echo "assets not present"
     echo "creating assets"
     mv assets /assets
-fi
+    fi
