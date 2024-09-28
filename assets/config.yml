@@ -1,0 +1,69 @@
+---
+title: "Homer Theme"
+subtitle: "Walkx"
+logo: "logo.png"
+
+header: false
+footer: '<p>Theme made with <span class="has-text-danger">❤️</span> by <a href="https://github.com/WalkxCode">Walkx </a> And Modified with <span class="has-text-danger">❤️</span> By <a href="https://github.com/viruslabit">VirusLabIt</a></p>' # Set false if you want to hide it.
+
+stylesheet:
+  - "assets/custom.css"
+
+columns: "3" # You can change this to any number that is a factor of 12: (1, 2, 3, 4, 6, 12)
+theme: default
+colors:
+  light:
+    highlight-primary: "#fff5f2"
+    highlight-secondary: "#fff5f2"
+    highlight-hover: "#bebebe"
+    background: "#12152B"
+    card-background: "rgba(255, 245, 242, 0.8)"
+    text: "#ffffff"
+    text-header: "#fafafa"
+    text-title: "#000000"
+    text-subtitle: "#111111"
+    card-shadow: rgba(0, 0, 0, 0.5)
+    link: "#3273dc"
+    link-hover: "#2e4053"
+    background-image: "../assets/wallpaper-light.jpeg" # Change wallpaper.jpeg to the name of your own custom wallpaper!
+  dark:
+    highlight-primary: "#181C3A"
+    highlight-secondary: "#181C3A"
+    highlight-hover: "#1F2347"
+    background: "#12152B"
+    card-background: "rgba(24, 28, 58, 0.8)"
+    text: "#eaeaea"
+    text-header: "#7C71DD"
+    text-title: "#fafafa"
+    text-subtitle: "#8B8D9C"
+    card-shadow: rgba(0, 0, 0, 0.5)
+    link: "#c1c1c1"
+    link-hover: "#fafafa"
+    background-image: "../assets/wallpaper.jpeg"
+
+services:
+  - name: "Github:"
+    icon: "assets/tools/github.png"
+    items:
+      -  name: "Homer"
+         logo: "assets/tools/walkx.png"
+         subtitle: "Homer"
+         tag: "Homer"
+         tagstyle: "is-info"
+         url: "https://github.com/bastienwirtz/homer"
+  - name: "Socials"
+    icon: "assets/tools/reddit.png"
+    items:
+      - name: "The original reddit post!"
+        logo: "assets/tools/reddit.png"
+        subtitle: "Yes... this is Homer."
+        tag: "reddit"
+        tagstyle: "is-info"
+        url: "https://www.reddit.com/r/selfhosted/comments/q9e82c/yes_this_is_homer_yes_i_spent_2_hours_customizing/"
+      - name: "VirusLabIT"
+        logo: "assets/tools/channel.png"
+        subtitle: "VirusLabYTChannel"
+        tag: "YT"
+        tagstyle: "is-info"
+        url: "https://www.youtube.com/@VirusLabItalia"
+        target: "_blank"
